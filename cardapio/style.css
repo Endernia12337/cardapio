@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #000000;
+    border: solid;
+    padding: 0 0 0 0px;
+    border: 0;
+}
+#insta{
+    color: gray;
+    font-size: 13px;
+    margin-left: 9px; 
+}
+#insta a{
+    color: white;
+}
+h1{
+    font-size: 70px;
+    font-family: "Playwrite BE VLG", cursive;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    position: relative;
+    margin: 0;
+    text-shadow: 5px 4px 8px #2F3D40;
+}
+.gastrobar{
+    font-family: "Playwrite BE VLG", cursive;
+    text-align: center;
+    margin-top: 0%;
+    padding: 0%;
+    font-size: 20px;
+    color:rgb(141, 143, 143);
+    position: relative;
+    top: -33px;
+}
+.links{
+    background-color: #000000;
+    position: sticky;
+    top: 0px;
+    margin: 0%;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    opacity: 80%;
+    padding: 0 5px 0 0;
+    z-index: 9;
+    box-shadow: 0 4px 10px rebeccapurple;
+}
+.links a{
+    color: white;
+    font-size: 85%;
+    font-family: "Playwrite HR Lijeva", cursive;
+}
+.links a:hover, .dropdrown:hover .dropbtn{
+    background-color: rgb(255, 0, 0);
+}
+ul{
+    text-align: center;
+    background-color: black;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+li{
+    display: inline-block;
+}
+li a, .dropbtn{
+    display: inline-block;
+    color:white;
+    padding: 0px 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+li .dropbox{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+}
+
+.dropdown-content a{
+    display: block;
+    color:#ffffff;
+    background-color:#464141;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    opacity: 100%;
+}
+.title{
+    text-align:left;
+    position: relative;
+    color: #f0f8ff;
+    margin: 20px 0 0 0 ;
+    width: 100%;
+    z-index: 5;
+}
+h2{
+    padding-left: 8px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 30px;
+    position: relative;
+    color: aliceblue;
+    margin: 0;
+}
+.itens{
+    padding-left: 8px;
+    color: #ffffff;
+    font-size: 120%;
+    z-index: 2;
+
+}
+.veja_mais{
+    color: #8d7a45;
+    font-size: 22px;
+    text-align: center;
+    display: inline;
+}
+.veja_mais:hover{
+    background-color: #141414;
+}
+.settings-img{
+    width: 50px;
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+}
+footer{
+    background-color:#111213;
+    height: 150px;
+    margin-top: 30px;
+    border-top: solid #2F3D40;
+}
